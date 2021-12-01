@@ -1,0 +1,76 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#dinheiro {
+    width: 18px;
+    height: 18px;
+}
+
+#nome {
+    width: 20px;
+    height: 20px;
+}
+
+
+#limpar {
+    border-color: black;
+    border-radius: 5%;
+    padding: 7px 22px;
+}
+
+#hora {
+    width: 15px;
+    height: 15px;
+}
+
+#calculadora {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+
+#calcular {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    padding: 7px 22px;
+    
+}
+
+#texto {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+#titulo {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.bordas {
+    width: 260px;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3%;
+    margin-left: 500px;
+    display: block;
+    margin-left: 865px;
+    margin-right: 865px;
+    margin-top: 100px ;
+}
+
+#titulo {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
