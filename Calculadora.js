@@ -24,6 +24,10 @@ function Calcular() {
         console.log('oi',liquido2)
         console.log("4: " + bruto1)
     } else if (bruto2 <= 2000 && bruto2 !=0) {
+        irrf = bruto2 * quinzeporcento
+        document.getElementById('irrf').value = 'R$' + irrf.toFixed(2)
+        liquido2 = bruto1 - irrf
+        document.getElementById('salarioLiquido').value = 'R$' + liquido2.toFixed(2)
         console.log('oi',bruto2)
         console.log("5: " + bruto1)
     } else if (bruto1 > 2000) {
@@ -34,6 +38,10 @@ function Calcular() {
         console.log('oi',liquido1)
         console.log("6: " + bruto1)
     } else if(bruto1<=2000){
+       irrf = bruto1 * quinzeporcento
+        document.getElementById('irrf').value = 'R$' + irrf.toFixed(2)
+        liquido1 = bruto1 - irrf
+        document.getElementById('salarioLiquido').value = 'R$' + liquido1.toFixed(2)
         console.log('oi',bruto1)
         console.log("7: " + bruto1)
     }
